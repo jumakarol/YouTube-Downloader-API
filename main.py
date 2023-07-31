@@ -75,9 +75,9 @@ def auto_suggest(searchTerm: str):
 
 #for production
 
-#if __name__ == "__main__":
-    #import uvicorn
-    #uvicorn.run(app, host="0.0.0.0 ")
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0 ")
 
 
 
