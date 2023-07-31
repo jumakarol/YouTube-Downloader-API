@@ -5,11 +5,11 @@ from pytube import Search
 def SearchEngine(searchTerm):
 	vE = Search(searchTerm)
 	results = vE.results
-	auto_sugest = vE.completion_suggestions
 	
 	
 	
-	return results
+	
+	return result 
 	
 def AutoSuggestEngine(searchTerm):
 	vE = Search(searchTerm)

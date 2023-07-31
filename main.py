@@ -15,6 +15,8 @@ origins = [
     "http://localhost:8080",
     "http://localhost:3000",
     "https://wisedownloaderpro.vercel.app/",
+    "https://vercel.app",
+    "https://*.vercel.app",
 ]
 
 app.add_middleware(
